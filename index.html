@@ -18,11 +18,12 @@
 </head>
 
 <body>
-<header class="  mt-[30px] flex">
-        <h1 style=" font-weight: 500;" class="ml-[200px] text-[30px] text-[ font-family: " Ubuntu";">Exam results</h1>
+<header class=" flex justify-center mt-[30px] flex">
+        <h1 style=" font-weight: 500;" class="ml-[200px] text-[30px] text-[ font-family:  Ubuntu;">Exam results</h1>
         <button id="add_btn" style="border-radius: 5px;" class="text-[white] p-[10px] bg-[blue] ml-[970px]">Add new student +</button>
 </header>
-<section class="flex justify-around">
+<div class="width">
+    <section class="max-[]  gap-[100px]">
         <section class="  ml-[50px] w-[300px] mt-[30px]">
             <h1 style="margin-left: 12px; font-weight: 400;" class="text-[25px] text-[ font-family: " Ubuntu";">Filter
             </h1>
@@ -68,8 +69,8 @@
 
                             </div>
                             <button style="color: white; border-radius: 5px;"
-                                class=" h-[35px] w-[230px] hover:bg-blue-800 bg-blue-700 text-whitefont-family: "
-                                Ubuntu";">
+                                class=" h-[35px] w-[230px] hover:bg-blue-800 bg-blue-700 text-whitefont-family:
+                                Ubuntu;">
                                 Filter
                             </button>
                         </form>
@@ -77,7 +78,6 @@
                 </div>
             </div>
         </section>
-        <section>
             <section class="w-[750px] mt-[100px] ml-[0px]">
                 <div class="relative overflow-x-auto shadow-md sm:rounded-lg">
                     <table class="w-full text-sm text-left rtl:text-right text-gray-500 dark:text-gray-400">
@@ -146,8 +146,8 @@
                     </table>
                 </div>
             </section>
-        </section>
 </section>
+</div>
 <section id="modal" class=" modal  hidden w-screen h-screen     backdrop-blur-[5px] fixed z-10  top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 ">    
     <div id="authentication-modal" tabindex="-1" aria-hidden="true" class=" overflow-y-auto overflow-x-hidden fixed top-0 right-0 left-0 z-50 justify-center items-center w-full md:inset-0 h-[calc(100%-1rem)] max-h-full flex m-[auto]">
         <div class="relative p-4 w-full max-w-md max-h-full">
